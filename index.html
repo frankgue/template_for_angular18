@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jstore - E-Commerce Template</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="banner-promo-container tc">
+        <div class="container">
+          <div class="banner-promo py-10">
+            Get Up to 40% Off New-Season Style <span>Men</span>
+            <span>Women</span> * Limited time only
+          </div>
+        </div>
+      </div>
+      <div class="nav-top-container">
+        <div class="container">
+          <div class="nav-top flex gap-10 py-15 jcsb">
+            <div class="nav-message">
+              FREE RETURN. STANDARD SHIPPING ORDER *99+
+            </div>
+            <div class="nav-items">
+              <ul class="flex jcc gap-20">
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">My Wishlist</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Log In</a></li>
+              </ul>
+            </div>
+            <div class="flex gap-10">
+              <div class="nav-country">
+                <select name="country" id="country">
+                  <option value="france">FRA</option>
+                  <option value="usa">USA</option>
+                  <option value="rus">RUS</option>
+                </select>
+              </div>
+              <div class="nav-currency">
+                <select name="currency" id="currency">
+                  <option value="EUR">EUR</option>
+                  <option value="USD">USD</option>
+                  <option value="OXF">OXF</option>
+                </select>
+              </div>
+            </div>
+            <div class="nav-social-icon flex gap-20">
+              <div class="social-icon-item">
+                <i class="fa-brands fa-facebook-f"></i>
+              </div>
+              <div class="social-icon-item">
+                <i class="fa-brands fa-x-twitter"></i>
+              </div>
+              <div class="social-icon-item">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="website-details-container">
+        <div class="container">
+          <div class="website-details aic flex gap-10">
+            <i class="fa-solid fa-bars none"></i>
+            <div class="website-logo logo">
+              <h2><a href="#">Jstore</a></h2>
+            </div>
+            <div class="website-search-bar flex flex-1">
+              <input
+                type="search"
+                name="product_filter"
+                id="product_filter"
+                class="flex-1 px-20"
+                placeholder="Search ..."
+              />
+              <select name="categories" id="categories">
+                <option value="">All Categories</option>
+                <option value="">Robes</option>
+                <option value="">Jupes</option>
+                <option value="">Culottes</option>
+                <option value="">T-Shirt</option>
+                <option value="">Chemise</option>
+              </select>
+              <div class="search-icon flex aic jcc">
+                <i class="bi bi-search"></i>
+              </div>
+            </div>
+            <div class="website-call-us flex aic gap-10">
+              <div class="call-icon">
+                <i class="bi bi-telephone"></i>
+              </div>
+              <div class="call-message">
+                <h3>Call us</h3>
+                <a href="tel:+123456789">123456789</a>
+              </div>
+            </div>
+            <div class="website-icon flex gap-10">
+              <div class="website-icon-item">
+                <i class="bi bi-person"></i>
+              </div>
+              <div class="website-icon-item">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <div class="website-icon-item">
+                <i class="bi bi-cart"></i>
+              </div>
+              <div class="website-icon-item">
+                <i class="fa-solid fa-angle-left"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <div class="container">
+        <div class="nav-container flex jcsb">
+          <div class="nav-left">
+            <ul class="flex gap-10">
+              <li><a href="#" class="active">HOME</a></li>
+              <li class="relative">
+                <a href="#"
+                  >CATEGORIES <i class="fa-solid fa-chevron-down"></i
+                ></a>
+                <div class="mega-sub-nav absolute flex box">
+                  <div class="mega-item">
+                    <h3>Variation 1</h3>
+                    <ul>
+                      <li><a href="#">Fullwidth Banner</a></li>
+                      <li><a href="#">Boxed Slider Banner</a></li>
+                      <li><a href="#">Boxed Image Banner</a></li>
+                      <li><a href="#">Left Sidebar</a></li>
+                      <li><a href="#">Right Sidebar</a></li>
+                      <li><a href="#">Off Canvas Filter</a></li>
+                      <li><a href="#">Horizontal Filter1</a></li>
+                      <li><a href="#">Horizontal Filter2</a></li>
+                    </ul>
+                  </div>
+                  <div class="mega-item">
+                    <h3>Variation 2</h3>
+                    <ul>
+                      <li><a href="#">List types</a></li>
+                      <li><a href="#">Ajax infinite scroll</a></li>
+                      <li><a href="#">3 Columns products</a></li>
+                      <li><a href="#">4 Columns products</a></li>
+                      <li><a href="#">5 Columns products</a></li>
+                      <li><a href="#">6 Columns products</a></li>
+                      <li><a href="#">7 Columns products</a></li>
+                      <li><a href="#">8 Columns products</a></li>
+                    </ul>
+                  </div>
+                  <div class="mega-item relative">
+                    <img src="assets/images/banner/banner.jpg" alt="" />
+                    <div class="mega-item-content absolute">
+                      <span>OFF</span>
+                      <div>
+                        <h4>UP TO</h4>
+                        <h3>50%</h3>
+                      </div>
+                    </div>
+                    <button class="btn absolute">SHOP NOW</button>
+                  </div>
+                </div>
+              </li>
+              <li class="relative">
+                <a href="#"
+                  >PRODUCTS <i class="fa-solid fa-chevron-down"></i
+                ></a>
+                <div class="mega-sub-nav absolute flex box">
+                  <div class="mega-item">
+                    <h3>Product Pages</h3>
+                    <ul>
+                      <li><a href="#">Simple product</a></li>
+                      <li><a href="#">variable product</a></li>
+                      <li><a href="#">SALE product</a></li>
+                      <li><a href="#">FEATURED &amp; ON SALE</a></li>
+                      <li><a href="#">WITH CUstom tab</a></li>
+                      <li><a href="#">WITH LEFT SIDEBAR</a></li>
+                      <li><a href="#">WITH RIGTH SIDEBAR</a></li>
+                      <li><a href="#">ADD CART STICKY</a></li>
+                    </ul>
+                  </div>
+                  <div class="mega-item">
+                    <h3>PRODUCT LAYOUTS</h3>
+                    <ul>
+                      <li><a href="#">EXTENDED LAYOUT</a></li>
+                      <li><a href="#">GRID IMAGE</a></li>
+                      <li><a href="#">FULL WITDH LAYOUT</a></li>
+                      <li><a href="#">STICKY INFO</a></li>
+                      <li><a href="#">LEFT &amp; RIGHT STICKY</a></li>
+                      <li><a href="#">TRANSPARENT IMAGE</a></li>
+                      <li><a href="#">CENTER VERTICAL</a></li>
+                      <li><a href="#">BUILD YOUR OWN</a></li>
+                    </ul>
+                  </div>
+                  <div class="mega-item relative">
+                    <img src="assets/images/product/03.jpg" alt="" />
+                    <div class="mega-item-content absolute">
+                      <span>OFF</span>
+                      <div>
+                        <h4>UP TO</h4>
+                        <h3>50%</h3>
+                      </div>
+                    </div>
+                    <button class="btn absolute">SHOP NOW</button>
+                  </div>
+                </div>
+              </li>
+              <li class="relative">
+                <a href="#">PAGES <i class="fa-solid fa-chevron-down"></i></a>
+                <ul class="sub-nav box absolute none">
+                  <li><a href="#">Wishlist</a></li>
+                  <li><a href="#">Shopping cart</a></li>
+                  <li><a href="#">Checkout</a></li>
+                  <li><a href="#">Dashboard</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li class="relative">
+                    <a href="#"
+                      >Blog <i class="fa-solid fa-chevron-down"></i
+                    ></a>
+                    <ul class="sub-nav absolute box none">
+                      <li><a href="#">Blog</a></li>
+                      <li><a href="#">Blog Post</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Login</a></li>
+                  <li><a href="#">Forgot Password</a></li>
+                </ul>
+              </li>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#">ELEMENTS</a></li>
+              <li><a href="#">CONTACT US</a></li>
+            </ul>
+          </div>
+          <div class="nav-right">
+            <ul class="flex gap-10">
+              <li><a href="#">SPECIAL OFFER!</a></li>
+              <li><a href="#">BUY Porto !</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="slider relative">
+      <div class="slider-image"></div>
+      <div class="slider-icon prev absolute">
+        <i class="fa-solid fa-angle-left"></i>
+      </div>
+      <div class="slider-icon next absolute">
+        <i class="fa-solid fa-angle-right"></i>
+      </div>
+      <div class="slider-content absolute">
+        <h4>Find the Boundaries. Push Through!</h4>
+        <h2>Summer Sale</h2>
+        <h3>70% OFF</h3>
+        <div class="slider-actions flex gap-25">
+          <span>STARTINT AT</span>
+          <div class="price">$ <span>199.</span><sup>99</sup></div>
+          <div class="shop-now btn">Shop Now</div>
+        </div>
+      </div>
+    </section>
+    <section class="promo py-15">
+      <div class="container">
+        <div class="promo-container py-20 flex gap-10">
+          <div class="promo-item flex-1 ml-5">
+            <div class="promo-header flex aic jcc gap-10">
+              <div class="promo-icon tc">
+                <i class="fa-solid fa-truck-fast"></i>
+              </div>
+              <div class="promo-details tc">
+                <h3>FREE SHIPPING & RETURN</h3>
+                <p>Free shipping on all orders over $99</p>
+              </div>
+            </div>
+            <div class="promo-image">
+              <img src="/assets/images/promo/promo-2.png" alt="" />
+            </div>
+          </div>
+          <div class="promo-item flex-1">
+            <div class="promo-header flex aic jcc gap-10">
+              <div class="promo-icon tc">
+                <i class="fas fa-sack-dollar"></i>
+              </div>
+              <div class="promo-details tc">
+                <h3>MONEY BACK GUARANTEE</h3>
+                <p>100% money back guarantee</p>
+              </div>
+            </div>
+            <div class="promo-image">
+              <img src="/assets/images/promo/promo-3.png" alt="" />
+            </div>
+          </div>
+          <div class="promo-item flex-1">
+            <div class="promo-header flex aic jcc gap-10">
+              <div class="promo-icon tc">
+                <i class="fa-solid fa-circle-info"></i>
+              </div>
+              <div class="promo-details tc">
+                <h3>ONLINE SUPPORT 24/7</h3>
+                <p>Lorem ipsum dolor si amet</p>
+              </div>
+            </div>
+            <div class="promo-image">
+              <img src="/assets/images/promo/promo-2.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="featured-products-container py-30">
+      <div class="container">
+        <div class="featured-products">
+          <div class="section-title">
+            <h2>Featured Products</h2>
+          </div>
+          <div class="products-list">
+            <div class="product-item">
+              <div class="product-image">
+                <img src="/assets/images/product/05.jpg" alt="" />
+              </div>
+              <div class="product-details">
+                <div class="product-category">Panthalons</div>
+                <div class="product-name">Panthalon supreme</div>
+                <div class="product-reviews">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i> (1758)
+                </div>
+                <div class="product-price">
+                  <del><h4>$89.99</h4></del>
+                  <h4>$29.99</h4>
+                </div>
+                <div class="product-options">
+                  <button class="btn">Select Options</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="pages"></div>
+  </body>
+</html>
